@@ -3,8 +3,13 @@
 THIS IS 99% THE AWESOME WORK FROM HERE:
 https://github.com/leoneckert/masks-and-hats
 
-But I've modified it to (work on a Mac locally), run in AWS lambda, use S3 for input and output, and added a bunch of props for the photos.
+But I've modified it to (work on a Mac locally), be able to be run in AWS lambda, be able to use S3 for input and output, and added a bunch of props for the photos.
 
+### Example Output
+![selfiefunhouseoutput](.screenshots/example_2017-10-10.png)
+
+
+### Design
 Here is the bigger picture of what this fits into:
 
 ![selfiefunhousediagram](.design/selfiefunhouse.jpg)
@@ -12,6 +17,7 @@ Here is the bigger picture of what this fits into:
 
 ## About the code
 It's Python2 - and it uses opencv+dlib.
+
 
 ## Running
 ### To run locally
@@ -24,9 +30,7 @@ You'll need to setup a few things in AWS as well as build a bundle.zip
 I'm planning on leveraging the more generic work I'm doing here: https://github.com/dudash/aws-lambda-python-opencv
 TBD...
 
-
-### To build/run with Red Hat's OpenShift
-
+### To build/run with OpenShift
 TBD.  Instructions coming soon.
 
 
