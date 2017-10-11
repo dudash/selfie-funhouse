@@ -29,10 +29,3 @@ You'll need to setup a few things in AWS as well as build a bundle.zip
 
 I'm planning on leveraging the more generic work I'm doing here: https://github.com/dudash/aws-lambda-python-opencv
 TBD...
-
-### To build/run with OpenShift
-TBD.  Instructions coming soon.
-
-
-Cheers,
-Dudash
