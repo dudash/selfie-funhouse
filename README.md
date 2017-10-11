@@ -5,6 +5,8 @@ https://github.com/leoneckert/masks-and-hats
 
 But I've modified it to (work on a Mac locally), be able to be run in AWS lambda, be able to use S3 for input and output, and added a bunch of props for the photos.
 
+## NOTE THIS IS IN PROGRESS - YMMV
+
 ### Example Output
 ![selfiefunhouseoutput](.screenshots/example_2017-10-10.png)
 
